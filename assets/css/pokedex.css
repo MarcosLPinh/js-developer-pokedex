@@ -86,17 +86,26 @@
     border-radius: 1rem;
 }
 
-.pokemon .number {
-    color: #000;
-    opacity: .3;
-    text-align: right;
-    font-size: .625rem;
+.pokemon a {
+    text-decoration: none;
+}
+
+.pokemon .identification {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .pokemon .name {
     text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+}
+
+.pokemon .number {
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
 }
 
 .pokemon .detail {

@@ -1,0 +1,184 @@
+.content {
+    height: 100vh;
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.namePokemon {
+    color: #FFF;
+}
+
+.content h1 {
+    margin: 0;
+}
+
+.content .identification {
+    display: grid; 
+    grid-template-columns: 20fr 1fr;
+}
+
+.content .identification .types {
+    display: grid;
+    grid-template-columns: 7ch 7ch;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.content .identification .types .type {
+    color: #FFF;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    text-align: center;
+    filter: brightness(1.1);
+}
+
+.content .identification .number{
+    margin-top: 1rem; 
+    color: #FFF;
+}
+
+.content .imgPokemon{
+    display: flex; 
+    margin: 0 auto 0 auto;
+    max-width: 80%;
+    height: 200px;
+}
+
+.about {
+    background-color: #FFF;
+    border-radius: 1rem;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+.about h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.about .separator {
+    width: 90%;
+}
+
+.about .details {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    list-style: none; 
+}
+
+.about .details .abilitie{
+    text-transform: capitalize;
+}
+
+.about .details li {
+	margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px) and (min-height: 901px){
+    .content {
+        margin: 4rem auto 0 auto;
+        height: 85vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (min-height: 800px) and (max-height: 900px){
+    .content {
+        margin: 1rem auto 0 auto;
+        height: 95vh;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .about {
+        max-width: 992px;
+        height: auto;
+    }
+
+    .about .details {
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px){
+
+    .about .details {
+        margin-left: 5rem;
+    }
+}
